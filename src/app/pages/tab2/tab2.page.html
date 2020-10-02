@@ -1,0 +1,12 @@
+<ion-header no-border [translucent]="true">
+  <ion-toolbar color="dark">
+    <ion-title>
+      Terminadas
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content color="dark" [fullscreen]="true">
+  <app-listas [terminada] = "true"></app-listas><!--La propiedad terminada se obtiene de listas.component.ts donde se declara con un @Input-->
+  
+</ion-content>
